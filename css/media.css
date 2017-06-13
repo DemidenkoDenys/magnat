@@ -1,0 +1,48 @@
+@media (max-width: 680px){
+	.main-menu{ display: none; }
+	#mobile-menu{ display: inline-block !important; }
+
+	#spec-1 .spec-name ul li{ height: 60px; }
+	#spec-1 .spec-name ul li span{ left: 50px; top: 30px; }
+
+	div.main-preview{ margin-top: 90px !important; }
+	div.main-preview h1{ font-size: 50px !important; }
+	div#model{ left: 30px; }
+	div#model h2{ font-size: 30px !important; }
+
+	.map.opened{ height: 400px !important; }
+	.map.opened iframe{ height: 400px !important; }
+}
+
+@media (max-width: 900px){
+	.logo{ display: none; }
+	.menu{ width: 100%; }
+	#technology:before{ display: none; }
+	#technology:after{ display: none; }
+	#name{ right: auto; }
+	#instagram-slider,
+	#carousel div img{ height: 100px !important; }
+}
+
+@media (max-width: 992px){
+	.open-new-model{ padding-left: 10%; }
+	.logo a img{ width: 300px !important; }
+
+	#company .flow{ 
+		width: 100% !important;
+		height: auto !important;
+		padding-bottom: 80px !important;
+		margin-top: 50px !important; }
+
+	#technology{ height: auto !important; padding-bottom: 50px !important; }
+
+	section#spec-1 h3{ font-size: 30px; padding-top: 0px; }
+}
+
+@media (max-width: 1180px){
+	#name{ display: none; }
+}
+
+@media (orientation: portrait){
+	#modal-picture img{ height: auto; width: 100%; }
+}
